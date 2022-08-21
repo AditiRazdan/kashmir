@@ -1,0 +1,45 @@
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 5s;
+}
+@keyframes fade-in-animation {
+    from { 
+        opacity: 0;
+        width: 100px;
+    }
+
+    to {
+        opacity: 1;
+        width: 300px;
+    }
+}
+.rainbow {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rainbow {
+    0% {
+        color: white;
+    }
+    20% {
+        color: whitesmoke;
+    }
+    40% { 
+        color: rgb(203, 190, 143);
+    }
+    60% {
+        color: rgb(198, 139, 45);
+    }
+    60% {
+        color: rgb(170, 127, 9);
+    }
+    80% {
+        color: rgb(139, 91, 6);
+    }
+    100% {
+        color: antiquewhite;
+    }
+}
